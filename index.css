@@ -26,7 +26,7 @@ p{
     margin-bottom: 7%;
 }
 
-.box{
+.cell{
     border: 6px solid rgb(255, 255, 255);
     border-collapse: collapse;
     display: flex;
@@ -34,7 +34,7 @@ p{
     align-items: center;
     font-size: 5em;
 }
-.box:hover{
+.cell:hover{
     background-color: lightslategrey;
 }
 button{
@@ -52,4 +52,8 @@ button{
 button:hover{
     transform:translateY(-2px);
     
+}
+
+.cell.highlight{
+    background-color: darkorchid;
 }
